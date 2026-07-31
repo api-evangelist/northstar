@@ -1,8 +1,28 @@
 aid: northstar
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/northstar.png
 name: Northstar
-description: 'Northstar is a company surfaced as a portfolio company of ggv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Northstar is an employer-sponsored financial wellness benefit that helps
+  employees understand, manage, and get the most out of their total compensation and
+  personal finances. Delivered as a workplace benefit (offered by employers to their
+  workforce), Northstar pairs financial guidance with tools for budgeting, saving,
+  equity/compensation planning, and overall money management. The company is a fintech
+  provider backed by GGV Capital. It was surfaced as a portfolio company and added
+  to the API Evangelist network as a stub for enrichment. As of this enrichment pass,
+  Northstar publishes a marketing site, blog, and legal pages, but exposes no public
+  developer portal, API documentation, OpenAPI specification, SDKs, MCP server, or
+  /.well-known discovery surface — its product is consumed as an employee benefit,
+  not as a developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/northstar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Financial Wellness
+- Employee Benefits
+- Personal Finance
+- Compensation
+- HR Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.northstarmoney.com/
+- type: Blog
+  url: https://www.northstarmoney.com/blog
+- type: TermsOfService
+  url: https://www.northstarmoney.com/terms
+- type: PrivacyPolicy
+  url: https://www.northstarmoney.com/legal/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
